@@ -8,8 +8,8 @@ import Foundation
 import SwiftUI
 
 @available(iOS 13.0, *)
-struct swiftUIView : View {
-    var body :some View {
+public struct swiftUIView : View {
+  public  var body :some View {
         Text("Sample view from the package ")
         Image(uiImage : UIImage(named: "Image", in: .module, with: nil)!
 //        .resizable()
