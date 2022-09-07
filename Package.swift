@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "SPMSampleProject",
             dependencies: [],
-            resources: [.process("Resource/Media.xcassets")]
+            resources: [.process("Resources/Media.xcassets")]
         ),
         .testTarget(
             name: "SPMSampleProjectTests",
